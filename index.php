@@ -7,8 +7,10 @@
   </head>
   <body>
     <p class="date">
+      <span id="blink">
       Nous sommes le <?php echo date('d / m / y'); ?>
-   </p>
-
+  </span>
+ </p>
+   <script src="assets/js/script.js" charset="utf-8"></script>
   </body>
 </html>
